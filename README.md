@@ -1,0 +1,1 @@
+# Akademik Trend Analiz Platformu
