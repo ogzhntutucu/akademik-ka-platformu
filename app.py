@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 from collections import Counter
 from textblob import TextBlob
 
-st.set_page_config(page_title="Akademik Keşif Platformu", layout="wide", page_icon="🎓")
+st.set_page_config(page_title="Akademik Keşif ve Analiz Platformu", layout="wide", page_icon="🎓")
 
 st.markdown("""
     <style>
@@ -32,7 +32,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("🎓 Akademik Keşif Platformu")
+st.title("🎓 Akademik Keşif ve Analiz Platformu")
 st.markdown("""
 **Amaç:** Akademik literatürü API ile taramak, görselleştirmek, NLP ile duygu analizi yapmak ve Web Scraping ile atıf verisi üretmektir.
 """)
