@@ -72,6 +72,13 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
+> **⚠️ Windows PowerShell İçin Not:**
+> Eğer `venv\Scripts\activate` komutunu çalıştırırken **"UnauthorizedAccess"** veya **"running scripts is disabled"** hatası alırsanız, terminalde (PowerShell) şu komutu çalıştırarak izin vermeniz yeterlidir:
+>
+> `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+>
+> Ardından tekrar aktive etme komutunu deneyiniz.
+
 **Mac / Linux**
 ```bash
 python3 -m venv venv
