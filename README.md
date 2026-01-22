@@ -60,7 +60,7 @@ araştırmacılara güçlü bir karar destek sistemi sunar.
 ## ⚙️ Kurulum
 
 ```bash
-git clone https://github.com/thwisse/akademik-ka-platformu.git
+git clone https://github.com/ogzhntutucu/akademik-ka-platformu.git
 cd akademik-ka-platformu
 ```
 
